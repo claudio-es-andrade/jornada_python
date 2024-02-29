@@ -1,0 +1,63 @@
+Desafio_Alchemy.py
+
+cliente_account
+conta_account
+True
+True
+['cliente_account', 'conta_account']
+main
+
+ Recuperando Clientes a partir de condição de filtragem 
+
+
+ Recuperando as Contas do Sr. Fabio Lopes (2 --> CC, CP) 
+
+Conta 
+ ( id=3, tipo=Conta Corrente, agencia=Cabo Verde, num=670, id_cliente=4, saldo=650.0 )
+Conta 
+ ( id=4, tipo=Conta Poupança, agencia=Cabo Verde, num=670, id_cliente=4, saldo=10000.0 )
+
+ Recuperando Cliente a partir de condição de filtragem em ordem Decrescente 
+
+Cliente 
+ (id=4, nome=Fabio Lopes, cpf=543219876, endereco=Rua Dr. Lopes, 200 - Cabo Verde - Paraisópolis/AM)
+Cliente 
+ (id=2, nome=Bruno Moura, cpf=987654321, endereco=Avenida A, 600 - Mato Seco - Ponte Azul/MG)
+Cliente 
+ (id=3, nome=Beatriz Souza, cpf=123459876, endereco=Rua C, 250 - Galho Seco - Ouro Claro/MS)
+Cliente 
+ (id=1, nome=Adriana Ramos, cpf=123456789, endereco=Avenida Z, 30 - Santo Inácio - Bermudas/PI)
+
+ Recuperando Cliente a partir de condição de filtragem de CPF 
+
+Cliente 
+ (id=1, nome=Adriana Ramos, cpf=123456789, endereco=Avenida Z, 30 - Santo Inácio - Bermudas/PI)
+Cliente 
+ (id=3, nome=Beatriz Souza, cpf=123459876, endereco=Rua C, 250 - Galho Seco - Ouro Claro/MS)
+Cliente 
+ (id=4, nome=Fabio Lopes, cpf=543219876, endereco=Rua Dr. Lopes, 200 - Cabo Verde - Paraisópolis/AM)
+Cliente 
+ (id=2, nome=Bruno Moura, cpf=987654321, endereco=Avenida A, 600 - Mato Seco - Ponte Azul/MG)
+
+ Recuperando Cliente a partir de condição de filtragem de join de nome e conta
+
+Bruno Moura
+Beatriz Souza
+Fabio Lopes
+Fabio Lopes
+SELECT cliente_account.nome, conta_account.id_cliente 
+FROM conta_account JOIN cliente_account ON cliente_account.id = conta_account.id_cliente
+
+ Executando statement a partir da connection 
+
+('Bruno Moura', 2)
+('Beatriz Souza', 3)
+('Fabio Lopes', 4)
+('Fabio Lopes', 4)
+
+ Total de instâncias do Cliente 
+
+4
+
+Process finished with exit code 0
+

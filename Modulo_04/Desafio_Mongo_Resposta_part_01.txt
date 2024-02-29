@@ -1,0 +1,11 @@
+/Desafio_Mongo.py
+
+[ObjectId('65dfc614a2d0f0a723bb9edc'), ObjectId('65dfc614a2d0f0a723bb9edd'), ObjectId('65dfc614a2d0f0a723bb9ede'), ObjectId('65dfc614a2d0f0a723bb9edf')]
+['profiles', 'posts', 'profile_user']
+{'_id': ObjectId('65dfc614a2d0f0a723bb9edc'), 'nome': 'Adriana Ramos', 'cpf': '123456789', 'endereco': 'Avenida Z, 30 - Santo Inácio - Bermudas/PI'}
+{'_id': ObjectId('65dfc614a2d0f0a723bb9edc'),
+ 'cpf': '123456789',
+ 'endereco': 'Avenida Z, 30 - Santo Inácio - Bermudas/PI',
+ 'nome': 'Adriana Ramos'}
+
+Process finished with exit code 0
