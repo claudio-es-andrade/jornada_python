@@ -1,7 +1,7 @@
 # JORNADA PYTHON
 
     Neste repositório, 
-        será depositado os arquivos
+        os arquivos são
         referentes ao estudo de uma
         das linguagens de programação
         mais utilizada no Mundo:  PYTHON.
