@@ -1,0 +1,1 @@
+# O que é necessário para a instalção e utilização deste pacote.
