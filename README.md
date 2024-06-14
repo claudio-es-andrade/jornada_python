@@ -1,8 +1,5 @@
-# JORNADA PYTHON
+# PYTHON
 
-    Neste repositório, 
-        os arquivos são
-        referentes ao estudo de uma
-        das linguagens de programação
-        mais utilizada no Mundo:  PYTHON.
+
+    Arquivos referentes ao estudo da Linguagem de Programação PYTHON.
 
