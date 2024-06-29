@@ -12,7 +12,7 @@ from src.secrets import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKE
 def _get_trends(woe_id: int, api: tweepy.API) -> List[Dict[str, Any]]:
 
     breakpoint()
-    trends = api.trends_place(woe_id)    # for tweet in trends:  #     print(tweet)
+    trends = api.get_place_trends(woe_id)    # for tweet in trends:  #     print(tweet)
     return trends[0]['trends']   #[trend for trend in trends]
 
 def get_trends_from_mongo()-> List[Dict[str, Any]]:
